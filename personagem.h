@@ -5,10 +5,10 @@
 class Personagem{
 public:
 	std::string nome;
-	int vid;
+	int vida;
 	int ataque;
 	
-	Personagem(std::string n, int, v, int a);
+	Personagem(std::string n, int v, int a)
 		: nome(n), vida(v), ataque(a) {}
 		
 		void apresentar(){
